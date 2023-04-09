@@ -1,0 +1,175 @@
+.main__design-project {
+    padding-top:380px;
+}
+.design-project-wrapper {
+    @include wrapper;
+    display:flex;
+    text-align: center;
+    gap:40px;
+    max-height: 300px;
+}
+.main__design-project__name {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+.main__design-project__name_h {
+    font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.main__design-project__name_text {
+    font-family: 'FuturaBookC';
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color:$color3;
+}
+.main__design-project__imgs {
+    display:flex;
+    justify-content: center;
+    gap:30px;
+    ul{ padding-top: 10px;
+        padding-left: 40px;
+        list-style-position: inside;
+        text-align: left;
+        font-family: 'FuturaBookC';
+        font-size: 15px;
+        line-height: 25px;
+        color: #959595;
+    }
+    span{
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        color: #363636;
+    }
+    
+    
+}
+.main__design-project__imgs__item1 {
+    position: relative;
+    height: 540px;
+
+    .main__design-project__imgs__item1__inf{
+    background-color:$color1;
+    width: 329px;
+    height: 210px;
+    position: absolute;
+    bottom:1%;
+    right: 8.6%;
+    // ul{ padding-top: 10px;
+    //     padding-left: 40px;
+    //     list-style-position: inside;
+    //     text-align: left;
+    //     font-family: 'FuturaBookC';
+    //     font-size: 15px;
+    //     line-height: 25px;
+    //     color: #959595;
+    // }
+    // span{
+    //     font-family: 'Yeseva One';
+    //     font-style: normal;
+    //     font-weight: 400;
+    //     font-size: 18px;
+    //     line-height: 25px;
+    //     color: #363636;
+    // }
+}
+.main__design-project__imgs__item1__button {
+    position: relative;
+    top: 15%;
+    right:13.5%;
+}
+.main__design-project__imgs__item1__button__characteristics {
+    @include batton-for-design-project;
+}
+   
+}
+.main__design-project__imgs__item2 {
+    position: relative;
+    height: 540px;
+    
+    .main__design-project__imgs__item2__inf {
+        
+       position: absolute;
+        background-color: $color1;
+        width:330px;
+        height:280px;
+        top: 60%;
+        left: 8%;
+        // ul{ padding-top: 10px;
+        //     padding-left: 40px;
+        //     list-style-position: inside;
+        //     text-align: left;
+        //     font-family: 'FuturaBookC';
+        //     font-size: 15px;
+        //     line-height: 25px;
+        //     color: #959595;
+        // }
+        // span{
+        //     font-family: 'Yeseva One';
+        //     font-style: normal;
+        //     font-weight: 400;
+        //     font-size: 18px;
+        //     line-height: 25px;
+        //     color: #363636;
+        // }
+    }
+}
+.main__design-project__imgs__item2__button {
+    position: relative;
+    top: 28%;
+    right: 12.8%;
+}
+.main__design-project__imgs__item2__button__characteristics {
+    @include batton-for-design-project;
+}
+.main__design-project__imgs__item3 {
+    position: relative;
+    
+
+}
+.main__design-project__imgs__item3__inf {
+    position: absolute;
+    height: 325px;
+    height: 412px;
+    background-color: $color1;
+    top: 60%;
+    right: 14%;
+    // ul{ padding-top: 10px;
+    //     padding-left: 40px;
+    //     list-style-position: inside;
+    //     text-align: left;
+    //     font-family: 'FuturaBookC';
+    //     font-size: 15px;
+    //     line-height: 25px;
+    //     color: #959595;
+    // }
+    // span{
+    //     font-family: 'Yeseva One';
+    //     font-style: normal;
+    //     font-weight: 400;
+    //     font-size: 18px;
+    //     line-height: 25px;
+    //     color: #363636;
+    // }
+}
+.main__design-project__imgs__item3__button {
+    position: relative;
+    top: 52%;
+    right: 7.5%;
+}
+.main__design-project__imgs__item3__button__characteristics {
+    @include batton-for-design-project;
+}

@@ -1,0 +1,113 @@
+.main__TYPES-OF-REPAIR_wrapper {
+    @include wrapper;
+   
+}
+.main__TYPES-OF-REPAIR_wrapper__name {
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    span {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #181818;
+    }
+}
+.main__TYPES-OF-REPAIR_wrapper__img {
+    height: 700px;
+    
+    padding-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    ul{ 
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        color:$color3;
+
+    }
+    li{  
+        font-family: 'FuturaBookC';
+        font-size: 15px;
+        line-height: 25px;
+        color: #959595;
+        
+
+    }
+}
+.main__TYPES-OF-REPAIR_wrapper__img__item{
+    position: relative;
+}
+.main__TYPES-OF-REPAIR_wrapper__img_characteristics-1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 286px;
+    background-image: url(../img/main__TYPES-OF-REPAIR_wrapper/img-items-bg/Rectangle\ 4.22.svg) ;
+    position: absolute;
+    left: 7%;
+    bottom: 17%;
+}
+.main__TYPES-OF-REPAIR_wrapper__img_characteristics-2{
+    background-image: url(../img/main__TYPES-OF-REPAIR_wrapper/img-items-bg/Rectangle\ 4.22\ \(1\).svg) ;
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 286px;
+    bottom: 17%;
+    left:10%;
+}
+.main__TYPES-OF-REPAIR_wrapper__img_characteristics-3 {
+    background-image: url(../img/main__TYPES-OF-REPAIR_wrapper/img-items-bg/Rectangle\ 4.23.svg);
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 286px;
+    bottom: 17%;
+    right: 7%;
+}
+.main__TYPES-OF-REPAIR_wrapper__img__button {
+    position: absolute;
+    bottom:15%;
+    left:7%;   
+}
+.main__TYPES-OF-REPAIR_wrapper__img__button-2{
+    position: absolute;
+    bottom:15%;
+    left:10%;
+}
+.main__TYPES-OF-REPAIR_wrapper__img__button-3{
+    position: absolute;
+    bottom: 15%;
+    padding-left: 18%;
+
+}
+.main__TYPES-OF-REPAIR_wrapper__img__button_characteristics {
+    @include batton;
+    width: 210px;
+    height: 45px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,49 @@
+
+.header {
+    max-width: 100%;
+    padding-top: 24px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: $bg-color;
+}
+.header__name{
+    @include fontSize;
+    text-transform: uppercase;
+    padding-top: 15px;
+    color: $color2;
+
+
+}
+
+.header__nav {
+    @include fontSize;
+    ul {
+        display: flex;
+        gap:38px;
+        list-style: none;
+        color: $color1;
+        
+        
+        
+    }
+    a{
+        text-decoration: none;
+        color:$color1;
+    }
+}
+.header__tel-bottom {
+    @include fontSize;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: $color2;
+    .header__tel-bottom__bottom_size {
+        @include batton;
+    }
+    .header__tel-bottom__bottom_size:hover{
+        background: white;
+        color: black;
+    }
+}

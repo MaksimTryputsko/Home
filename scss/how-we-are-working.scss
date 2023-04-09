@@ -1,0 +1,102 @@
+.main__How-we-are-working {
+    height: 1600px;
+    background-image: url(../img/How-we-are-working/bg/Rectangle\ 11.2.svg);
+    color:$color1;
+}
+.main__How-we-are-working-wrapper {
+    padding-top: 30%;
+    @include wrapper-for-hwa-working;
+}
+.main__How-we-are-working__inf {
+    display:flex;
+    flex-direction: column;
+    gap:70px;
+    
+}
+.main__How-we-are-working__inf__h {
+    div{
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 37px;
+        text-transform: uppercase;
+        color:$color2;
+    }
+    p{
+        font-family: 'FuturaDemiC';
+        font-size: 15px;
+        line-height: 21px;
+        text-transform: uppercase;
+    }
+}
+.main__How-we-are-working__inf__text {
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    .main__How-we-are-working__inf__text__namber {
+        font-family: 'Yeseva One' "sans-serif";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: $color1;
+    }
+    .main__How-we-are-working__inf__text__name {
+        font-family: 'Yeseva One' "sans-serif";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 23px;
+        text-transform: uppercase;
+        color: $color2;
+    }
+    .main__How-we-are-working__inf__text__text {
+        font-family: 'FuturaBookC', sans-serif;
+        font-size: 15px;
+        line-height: 25px;
+        color: $color1;
+    }
+}
+
+.main__How-we-are-working__img {
+    padding-top: 50px;
+    display:flex;
+    flex-direction: column;
+    gap:60px;
+}
+.main__How-we-are-working__img__menu {
+    display:flex;
+    flex-wrap:wrap;
+    gap:2px;
+    
+    h3,span {
+        font-family: 'FuturaBookC', sans-serif;
+        font-size: 15px;
+        line-height: 18px;
+        color: #FFFFFF;
+        text-shadow: 1px 1px 2px gray;
+    }
+    .main__How-we-are-working__img__menu__item_span{
+        text-shadow: none;
+        text-decoration-color:$color2;
+    }
+    h3{
+        text-decoration: underline;
+        text-decoration-color:$color2;
+    }
+    .main__How-we-are-working__img__menu__item_h4{
+        text-shadow: none;
+        text-decoration: underline;
+        text-decoration-color:$color2;
+    }
+
+}
+    
+    
+    
+
+.main__How-we-are-working__img__menu__item {
+    width: 33%;
+}

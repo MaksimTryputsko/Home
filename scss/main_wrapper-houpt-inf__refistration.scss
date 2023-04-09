@@ -1,0 +1,58 @@
+.Main_bg-white {
+    background-image: url(../img/bg-white/BACKGROUND\ LINE.png);
+}
+.main_wrapper-houpt-inf {
+    @include wrapper;
+}
+.main_wrapper-houpt-inf__information {
+    padding-top: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    div{
+        max-width: 680px;
+        font-family: 'FuturaBookC';
+        font-size: 20px;
+        line-height: 34px;
+        text-align: center;
+        color: $color3;
+        }
+
+}
+.main_wrapper-houpt-inf__registration {
+    padding-top: 60px;
+    display:flex;
+    justify-content: center;
+    gap:115px;
+    span{
+        font-family: 'FuturaBookC';
+        font-size: 15px;
+        line-height: 20px;
+        color: rgba(54, 54, 54, 0.5);
+        transform: rotate(-0.07deg);
+    }
+    input{
+        border: none;
+        border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+        font-family: 'FuturaBookC';
+        font-size: 18px;
+        line-height: 24px;
+        color: $color3;
+    }
+
+}
+
+.main_wrapper-houpt-inf__registration_button_characteristics {
+    @include batton;
+    height: 47px;
+    width: 200px;
+}
+.main_wraper-houpt-inf__I-agree{
+    padding-top: 35px;
+    display:flex;
+    justify-content: center;
+    gap: 5px;
+    
+}

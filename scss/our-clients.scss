@@ -1,0 +1,139 @@
+.main__our-clients-wrapper{
+    padding-top: 200px;
+    @include wrapper;
+    text-align: center;
+    gap:30px;
+    height: 1300px;
+}
+.main__our-clients__text {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+.main__our-clients__text__h {
+    font-family: 'Yeseva One',"sans-serif";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+   
+    
+}
+.main__our-clients__text__img {
+}
+.main__our-clients__text__p {
+    font-family: 'FuturaBookC',"sans-serif";
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #363636;
+
+}
+.main__our-clients__characteristics {
+    display: flex;
+    text-align: left;
+    gap:75px;
+}
+.main__our-clients__characteristics__item {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:30px;
+    
+
+}
+.main__our-clients__characteristics__h {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:15px;
+    div{
+        font-family: 'Yeseva One', "sans-srif";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        color: #181818;
+
+        
+    }
+}
+.main__our-clients__characteristics__text {
+    font-family: 'FuturaBookC', "sans-serif";
+    font-size: 15px;
+    line-height: 180%;
+    color: #959595;
+}
+.test99{
+    position: relative;
+}
+.ask{
+    z-index:2;
+    background-image: url(../img/ask/Rectangle.png);
+    width: 883px;
+    height: 445px;
+    position: absolute;
+    top: 52%;
+    left: 20%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:$color1;
+    gap:50px;
+    span{
+        font-family: 'FuturaBookC';
+        font-size: 15px;
+        line-height: 20px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .ask__name {
+        font-family: 'Yeseva One',"sans-serif";
+        font-style: bold;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .ask__name-phone {
+        display:flex;
+        gap: 30px;
+        input{
+            width: 200px;
+            background: transparent;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            font-family: 'FuturaMediumC',"sans-serif";
+            font-size: 18px;
+            line-height: 25px;
+            color:$color1;
+        }
+    }
+    .ask__question {
+        input{
+            width: 430px;
+            background: transparent;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            font-family: 'FuturaMediumC',"sans-serif";
+            font-size: 18px;
+            line-height: 25px;
+            color:$color1;
+        }
+    }
+    .ask__agree {
+        display:flex;
+        gap:10px;
+    }
+   
+    
+}
