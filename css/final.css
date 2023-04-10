@@ -76,6 +76,7 @@ ul {
   background-image: url("../img/img-bg1/bg1.svg");
   display: flex;
   gap: 50px;
+  background-size: 100%;
 }
 
 .main__bg-1:after {
