@@ -56,3 +56,111 @@
     gap: 5px;
     
 }
+@media (max-width:1100px){
+    .main_wrapper-houpt-inf__registration {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:30px;
+    }
+    .main_wrapper-houpt-inf__registration__item-1{
+        order:1;
+    }
+    .main_wrapper-houpt-inf__registration__item-2{
+        order:2;
+    }
+    .main_wrapper-houpt-inf__registration__item-3{     
+        order:4;
+    }
+    .main_wrapper-houpt-inf__registration_button_characteristics{
+            width: 300px;
+    }
+    .main_wraper-houpt-inf__I-agree{
+        padding-top: 0px;
+        width: 305px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF; 
+        order:3;
+    }
+
+}
+@media (max-width: 365px){
+    .main__bg__wrapper-video {
+        background: $bg-color;
+    }
+    .Main_bg-white {
+        background-image: none;
+        background-color:$bg-color;
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+    .Main_wrapper-houpt-inf{
+        span {
+            color: rgba(255, 255, 255, 0.5);
+        }
+        input{
+            width: 300px;
+            background: transparent;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            font-family: "FuturaMediumC";
+            font-size: 18px;
+            line-height: 25px;
+            color: white;
+            border-color: whitesmoke;
+        }
+    }
+    .main_wrapper-houpt-inf__information {
+        div{
+            font-size: 14px;
+            line-height: 169.8%;
+            text-align: center;
+            color:$color1;
+        }
+    }
+    .main_wrapper-houpt-inf__registration{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding-top: 30px;
+    }
+    .main__leave__box-leav__inf_input{
+        display: flex;
+    }
+    .main_wrapper-houpt-inf__registration {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:30px;
+    }
+    .main_wrapper-houpt-inf__registration__item-1{
+        order:1;
+    }
+    .main_wrapper-houpt-inf__registration__item-2{
+        order:2;
+    }
+    .main_wrapper-houpt-inf__registration__item-3{     
+        order:4;
+    }
+    .main_wrapper-houpt-inf__registration_button_characteristics{
+            width: 300px;
+    }
+    .main_wraper-houpt-inf__I-agree{
+        padding-top: 0px;
+        width: 305px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF; 
+        order:3;
+    }
+  
+
+}

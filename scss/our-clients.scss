@@ -137,3 +137,35 @@
    
     
 }
+@media(max-width:365px){
+    .main__our-clients-wrapper{
+        display:none;
+    }
+    .ask{
+        width: 350px;
+        height: 540px;
+        left:1%;
+        top:0.1%;
+    }
+    .ask__name-phone{
+        display:flex;
+        flex-direction: column;
+    }
+    .ask{
+        .ask__question {
+            width: 200px;
+            input{
+                width: 200px;
+                background: transparent;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                font-family: 'FuturaMediumC',"sans-serif";
+                font-size: 18px;
+                line-height: 25px;
+                color:$color1;
+            }
+        }
+        }        
+    }
+    

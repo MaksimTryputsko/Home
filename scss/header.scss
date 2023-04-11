@@ -12,8 +12,7 @@
     text-transform: uppercase;
     padding-top: 15px;
     color: $color2;
-
-
+    padding-bottom: 15px;
 }
 
 .header__nav {
@@ -46,4 +45,38 @@
         background: white;
         color: black;
     }
+}
+@media (max-width: 1110px){
+    .header__nav{
+        display: none;
+    }
+
+}
+@media (max-width:536px){
+    .header__tel-bottom__bottom_size {
+        display:none;
+        
+    }
+
+}
+@media (max-width: 365px){
+    .header__name{
+        // padding-bottom: 15px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .header__tel-bottom {
+    gap:0px;
+    color: $color1;
+    font-size: 12px;
+    line-height: 14px; 
+    }
+    .header__tel-bottom__bottom_size {
+        display:none;
+        
+    }
+    .header__nav{
+        display: none;
+    }
+   
 }

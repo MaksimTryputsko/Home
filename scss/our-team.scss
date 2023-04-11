@@ -65,3 +65,18 @@
     text-align: center;
     color: $color3;
 }
+@media(max-width: 365px){
+    .main__our-team {
+        padding-top: 1100px;
+    }
+    .main__our-team__foto {
+        display:flex;
+        flex-direction: column;
+    }
+    .main__our-team__footer__p {
+        display:none;
+    }
+    .main__our-team__foto__item {
+        width: 350px;
+    }
+}

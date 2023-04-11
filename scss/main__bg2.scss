@@ -165,19 +165,128 @@
 }
 .main__bg2__video{
         position: relative;
+        width: 100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
 }
 .main__bg2__video__play{
     z-index:2;
         position: absolute;
         top: 33%;
-        left: 40%;
+        left: 47%;
 }
-.main__bg2__video:after{
+// .main__bg2__video:after{
+//         content: '';
+//         width: 100%;
+//         height: 100%;
+//         position: absolute;
+//         top: 0; left: 0;
+//         background-color: rgba(0,0,0,0.5);
+// }
+@media (max-width:1200px){
+    .main__bg2__foto{
+        display:none;
+    }
+    .main__bg2__inf {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 40px;
+    }
+    .main__bg2__inf__h-name{
+        text-align: center;
+    }
+}
+@media(max-width:854px){
+    .main__bg2__video{
+        width: 520px;
+        height: 307px;
+    }
+    .main__bg2__video__img{
+        width: 100%;
+        height: 100%;
+    }
+    .main__bg2__video__play{
+        z-index:2;
+        position: absolute;
+        top: 30%;    
+        left: 38%;
+    }    
+   
+
+}
+@media (max-width:365px){
+    
+    .main_bg2__inf__h {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:20px;
+        text-align: center;
+        
+        .main__bg2__inf__p-name {
+            br{
+                display: none;
+            }
+        }
+    }
+    .main__bg-2__h-name {
+        display:none;
+        
+    }
+    .main__bg2__foto__items {
+        display:none;
+    }
+    .main__bg2__inf__characteristics__box-items1 {
+        padding-right: 24px;
+    }
+    .main__bg2__inf__characteristics__box-items2 {
+     
+        gap:60px;
+    }
+    .main__bg2__inf__img {
+        display:none
+    }
+    .main__bg2__camera {
+        width: 163px;
+        text-align: center;
+    }
+    .main__bg__wrapper-video{
+        gap:20px;
+    }
+    .main__bg2__video{
+        width: 320px;
+        height: 207px;
+    }
+    .main__bg2__video__img{
+        width: 100%;
+        height: 100%;
+    }
+    .main__bg2__video:after{
         content: '';
         width: 100%;
         height: 100%;
         position: absolute;
         top: 0; left: 0;
         background-color: rgba(0,0,0,0.5);
+    }
+    .main__bg2__video__play {
+        top: 30%;
+        left: 40%;
+    }
+    .main__bg2__video__play__img{
+        height: 80px;
+        width: 80px;
+    }
+    .main__bg__wrapper-video{
+        @include wrapper;
+        padding-left: 20px;
+        padding-right: 20px;
+    
+    
+    }
+
 }
-   

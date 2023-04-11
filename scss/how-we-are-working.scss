@@ -100,3 +100,9 @@
 .main__How-we-are-working__img__menu__item {
     width: 33%;
 }
+@media (max-width: 365px){
+    .main__How-we-are-working-wrapper {
+        display:none;
+    }
+
+}

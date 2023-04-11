@@ -22,7 +22,6 @@
 }
 .main__TYPES-OF-REPAIR_wrapper__img {
     height: 700px;
-    
     padding-top: 25px;
     width: 100%;
     display: flex;
@@ -110,4 +109,75 @@
     font-size: 18px;
     line-height: 25px;
     text-transform: uppercase;
+}
+@media (max-width: 1100px){
+    .main__TYPES-OF-REPAIR_wrapper__img{
+        padding-top: 350px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:170px;
+    }
+
+}
+@media (max-width: 365px){
+    .main__TYPES-OF-REPAIR_wrapper__name{
+        span{
+            color:$color1;
+            width: 200px;
+        }
+    }
+    .main__TYPES-OF-REPAIR_wrapper__img{
+        padding-top: 350px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:170px;
+    }
+    .main__TYPES-OF-REPAIR_wrapper{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .main__TYPES-OF-REPAIR_wrapper__img__item__logo{
+        width: 300px;
+        // height: 400px;
+    }
+   
+    .main__TYPES-OF-REPAIR_wrapper__img_characteristics-1{
+        height: 240px;
+        width: 270px;
+        bottom:-100px;
+        left: -10px;
+    }
+    .main__TYPES-OF-REPAIR_wrapper__img__button {
+        bottom: -120px;
+        left:0px;
+    }
+    .main__TYPES-OF-REPAIR_wrapper__img_characteristics-2{
+        height: 240px;
+        width: 270px;
+        bottom:-100px;
+        left: -10px;
+    }
+    .main__TYPES-OF-REPAIR_wrapper__img__button-2 {
+        bottom: -120px;
+        left:0px;
+    }
+    .main__TYPES-OF-REPAIR_wrapper__img_characteristics-3{
+        height: 240px;
+        width: 270px;
+        bottom:-100px;
+        left: -10px;
+    }
+    .main__TYPES-OF-REPAIR_wrapper__img__button-3 {
+        bottom: -120px;
+        left: -54px;
+    }
+    
+    
+
+
+
 }

@@ -79,3 +79,60 @@
     position: relative;
     bottom: 10%;
 }
+@media (max-width:1110px){
+    .main__bg-fantasie {
+        margin-top:700px;
+    }
+
+}
+
+@media (max-width: 365px){
+    .main__bg-fantasie_wrapper__box-text{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 70px;
+    }
+    .main__bg-fantasie_wrapper__box-text-h {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 138.6%;
+    }
+    .main__bg-fantasie_wrapper__box-imgs{
+        display:none;
+    }
+    .main__bg-fantasie_wrapper__box-text-ul{
+        display:none;
+    }
+    .main__bg-fantasie {
+        text-align: center;
+        margin-top: 200px;
+        background-image: none;
+        height: 860px;
+    }
+    img[hidden]{
+        display: block;
+        width: 340px;
+        height: 242px;   
+    }
+    .main__bg-fantasie_wrapper__box-text-h{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 138.6%;
+        text-align: center;
+        width: 240px;
+        padding-bottom: 20px;
+    }
+    .test-box{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        height: 400px;
+        padding-top: 350px;
+    }
+}

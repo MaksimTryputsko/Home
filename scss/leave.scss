@@ -16,7 +16,7 @@
     height: 509px;
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-around;  
 
     align-items: center;
     color: white;
@@ -98,4 +98,16 @@
     line-height: 25px;
     color: $color2;
     text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
-}  
+}
+@media (max-width: 1110px){
+    .main__leave_wrapper {
+        display:none;
+    }
+}
+@media (max-width: 365px){
+    .main__leave_wrapper {
+        display:none;
+    }
+
+
+}
