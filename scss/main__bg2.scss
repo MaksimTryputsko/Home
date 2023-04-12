@@ -1,6 +1,7 @@
 .main__bg-2 {
     @include wrapper;
     padding-right: 0px;
+    padding-left: 0px;
     
    
     // background-image: url(../img/img-bg2/Rectangle\ 4.15.svg);
@@ -193,7 +194,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-right: 40px;
+        // padding-right: 40px;
     }
     .main__bg2__inf__h-name{
         text-align: center;
@@ -217,7 +218,17 @@
    
 
 }
+@media (max-width:541px){
+    .main__bg2__video{
+        width: 340px;
+        height: 237px;
+    }
+
+}
 @media (max-width:365px){
+    .main__bg2{
+        padding-left: 0px;
+    }
     
     .main_bg2__inf__h {
         display:flex;
@@ -241,7 +252,6 @@
         display:none;
     }
     .main__bg2__inf__characteristics__box-items1 {
-        padding-right: 24px;
     }
     .main__bg2__inf__characteristics__box-items2 {
      

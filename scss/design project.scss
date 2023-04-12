@@ -173,6 +173,39 @@ font-weight: bold;
 .main__design-project__imgs__item3__button__characteristics {
     @include batton-for-design-project;
 }
+@media (max-width:1100px){
+    .main__design-project {
+        padding-top:830px;
+        background-color:$bg-color;
+    }
+    .main__design-project__name_h {
+        color:$color2;
+    }
+    .main__design-project__name_text {
+        color:$color1;
+    }
+    .main__design-project__imgs{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:110px;
+    }
+    .main__design-project__imgs__item3__button {
+        position: absolute;
+        bottom: -270px;
+        right: 28%;
+    }
+
+}
+@media(max-width:423px){
+    .main__design-project__name_img{
+        display:none;
+    }
+    .main__design-project__name_text{
+        padding-top: 30px;
+    }
+}
 @media( max-width:365px){
     .design-project-wrapper {
         @include wrapper;

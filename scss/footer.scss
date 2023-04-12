@@ -41,6 +41,11 @@ footer{
 .footer__tel-bottom__bottom_size {
     @include batton;
 }
+@media (max-width: 1100px){
+    footer{
+        display:none;
+    }
+}
 @media (max-width: 365px){
     footer{
         display:none;

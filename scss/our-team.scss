@@ -65,6 +65,24 @@
     text-align: center;
     color: $color3;
 }
+@media(max-width:1100px){
+    .main__our-team {
+        padding-top: 1100px;
+    }
+    .main__our-team__foto {
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        
+    }
+}
+@media(max-width:491px){
+    .main__our-team__footer__p {
+        display:none;
+    }
+
+}
 @media(max-width: 365px){
     .main__our-team {
         padding-top: 1100px;

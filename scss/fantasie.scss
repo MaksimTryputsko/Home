@@ -7,6 +7,7 @@
 .main__bg-fantasie_wrapper {
     @include wrapper-for-fantasie;
     display:flex;
+    background-size:cover;
     
    
     
@@ -81,8 +82,39 @@
 }
 @media (max-width:1110px){
     .main__bg-fantasie {
+    }
+    .main__bg-fantasie {
         margin-top:700px;
     }
+    .main__bg-fantasie_wrapper__box-text-ul{
+     
+    }
+    .main__bg-fantasie_wrapper__box-imgs{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+    }
+    .main__bg-fantasie_wrapper__img-1{
+        display:none;
+
+    }
+    .main__bg-fantasie_wrapper__img-3{
+        display:none
+    }
+
+}
+@media(max-width:650px){
+
+    .main__bg-fantasie_wrapper__box-text-ul{
+        display:none;
+    }
+    .main__bg-fantasie_wrapper__box-text-h {
+        display:none;
+    }
+}
+@media(max-width:423px){
 
 }
 
@@ -111,12 +143,12 @@
         text-align: center;
         margin-top: 200px;
         background-image: none;
-        height: 860px;
+        height: 560px;
     }
     img[hidden]{
         display: block;
         width: 340px;
-        height: 242px;   
+        height: 280px;   
     }
     .main__bg-fantasie_wrapper__box-text-h{
         font-style: normal;
